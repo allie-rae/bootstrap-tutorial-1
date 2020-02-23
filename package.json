@@ -4,7 +4,9 @@
   "description": "I went through this tutorial: https://www.youtube.com/watch?v=RyTRgQ7k6QE",
   "main": "js/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "autoprefixer": "^9.7.4",
     "css-loader": "^3.4.2",
     "fibers": "^4.0.2",
+    "file-loader": "^5.1.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
     "postcss-loader": "^3.0.0",
